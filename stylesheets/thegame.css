@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.navlink,
+.navlink_current {
+    background-color: white;
+    color: black;
+}
+
+.navlink {
+    border: solid black 2px;
+}
+
+.navlink_current {
+    border: solid white 2px;
+}
+
+footer a:link {
+    color: white;
+}
+
+footer a:visited {
+    color: lightgray;
+}

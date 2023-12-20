@@ -1,0 +1,29 @@
+header,
+footer {
+    text-align: center;
+}
+
+main {
+    border-bottom: solid;
+    min-height: 50svh;
+    padding-inline: 5svw;
+    text-align: justify;
+}
+
+header div nav ul {
+    padding: 0px;
+}
+
+.navlink,
+.navlink_current {
+    display: inline;
+    padding-inline: 8px;
+}
+
+.navlink {
+    border: solid gray 2px;
+}
+
+.navlink_current {
+    border: solid 2px;
+}
