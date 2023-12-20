@@ -3,10 +3,20 @@ body {
     color: white;
 }
 
-.navlink,
-.navlink_current {
-    background-color: white;
-    color: black;
+footer a:link {
+    color: white;
+}
+
+footer a:visited {
+    color: lightgray;
+}
+
+.navlink a:link {
+    color: white;
+}
+
+.navlink a:visited {
+    color: lightgray;
 }
 
 .navlink {
@@ -15,12 +25,11 @@ body {
 
 .navlink_current {
     border: solid white 2px;
-}
-
-footer a:link {
     color: white;
 }
 
-footer a:visited {
-    color: lightgray;
+@media screen and (max-width: 600px) {
+    .navlink_current {
+        border: none;
+    }
 }

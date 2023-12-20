@@ -16,14 +16,21 @@ header div nav ul {
 
 .navlink,
 .navlink_current {
-    display: inline;
     padding-inline: 8px;
 }
 
-.navlink {
-    border: solid gray 2px;
-}
+@media screen and (min-width: 600px) {
 
-.navlink_current {
-    border: solid 2px;
+    .navlink,
+    .navlink_current {
+        display: inline;
+    }
+
+    .navlink {
+        border: solid gray 2px;
+    }
+
+    .navlink_current {
+        border: solid 2px;
+    }
 }
