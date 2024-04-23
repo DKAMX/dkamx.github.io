@@ -3,19 +3,11 @@ body {
     color: white;
 }
 
-footer a:link {
+a:link {
     color: white;
 }
 
-footer a:visited {
-    color: lightgray;
-}
-
-.navlink a:link {
-    color: white;
-}
-
-.navlink a:visited {
+a:visited {
     color: lightgray;
 }
 
